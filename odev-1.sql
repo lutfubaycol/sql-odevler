@@ -17,6 +17,3 @@ SELECT last_name FROM customer WHERE first_name = 'Mary' ;
 -- 5. film tablosundaki uzunluğu(length) 50 ten büyük OLMAYIP aynı zamanda rental_rate değeri 2.99 veya 4.99 OLMAYAN verileri sıralayınız.
 
 SELECT * FROM film WHERE length <=50 AND rental_rate NOT IN (2.99, 4.99) ;
-
--- 6. asjdıoajsd
--- 7. asdasdasdasdasdasdas
